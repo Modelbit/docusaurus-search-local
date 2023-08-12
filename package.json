@@ -41,6 +41,7 @@
     "lunr": "^2.3.9",
     "lunr-languages": "^1.4.0",
     "mark.js": "^8.11.1",
+    "tsc": "^2.0.4",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
