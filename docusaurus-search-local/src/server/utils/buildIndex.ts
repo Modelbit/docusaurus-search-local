@@ -64,6 +64,8 @@ export function buildIndex(
       this.field("t");
       this.metadataWhitelist = ["position"];
 
+      this.tokenizer.separator = /[\s\-\.]+/
+
       documents.forEach((doc) => {
         this.add({
           ...doc,
